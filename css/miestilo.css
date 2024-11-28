@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #F40009; 
+    color: #fff;
+}
+
+.logo img {
+    width: 150px; 
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1.5rem;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #F40009; 
+}
+.hero {
+    background-color: #F40009; 
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio {
+    background-image: url('fonod cocaoreo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 100px 0; 
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    padding: 2rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.hero {
+    background-color: #F40009; 
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    background-color: #fff;
+    color: #F40009;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #F40009;
+}
+
+.btn:hover {
+    background-color: #F40009;
+    color: #fff;
+}
+
+section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.about, .benefits {
+    background-color: #f4f4f4;
+    border: 2px solid #F40009; 
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.benefits ul {
+    list-style-type: square;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.benefits ul li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+#formulario form {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #formulario form .form-label {
+    font-weight: bold;
+  }
+  
+  #formulario form .form-control {
+    border: 1px solid #F40009;
+    border-radius: 5px;
+  }
+  
+  #formulario form .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(244, 0, 9, 0.5);
+    border-color: #F40009;
+  }
+  
+  #formulario form button {
+    background-color: #F40009;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #formulario form button:hover {
+    background-color: #c70007;
+  }
+
+footer {
+    background-color: #F40009;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 15px;
+}
+
+footer .social-media img {
+    width: 30px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer .social-media a:hover img {
+    transform: scale(1.2);
+}
+h5 {
+    background-color: #F40009;
+    color: white;
+    padding: 2px;
+ }
+ .pp {
+    background-color: #F40009;
+    color: white;
+    padding: 2px;
+ } 
+ @media screen and (max-width: 768px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-toggler {
+      background-color: #fff;
+      border: none;
+    }
+  
+    .nav-link {
+      text-align: center;
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
